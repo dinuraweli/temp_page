@@ -1,0 +1,64 @@
+.hero-banner {
+  background: url('1271.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 9, 9, 0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --main-border: solid rgba(255, 0, 0, 0);
+  --accent-color: rgb(0, 79, 176);
+  --bg-colour: #efe2b400;
+  --bg-colour2: floralwhite;
+  --sectionbg: #f9f9f9;
+  --text-color: floralwhite;
+  --text-color2: black;
+}
+
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color2);
+  background: var(--bg-colour);
+}
+/* Typography
+rgb(0, 102, 176) */
+
+
